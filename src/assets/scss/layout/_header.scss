@@ -1,0 +1,15 @@
+.header {
+  &-container {
+    width: 100%;
+    min-height: 21.875rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $schiphol-blue;
+  }
+
+  &--title {
+    margin: 0;
+    max-width: 32rem;
+    padding: 0 5vw;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "sourceMap": true,
+    "target": "es6",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "jest.setup.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ]
+}
